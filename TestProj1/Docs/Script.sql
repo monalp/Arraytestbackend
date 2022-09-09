@@ -1,5 +1,5 @@
 ﻿--SQL scripts example 
-
+--Start--
 --Create table script
 CREATE TABLE [dbo].[AspNetUsers] (
     [Id]                   NVARCHAR (128) NOT NULL,
@@ -29,3 +29,4 @@ INSERT INTO [dbo].[AspNetUsers] ([Id], [Email], [EmailConfirmed], [PasswordHash]
 -- Select script
 SELECT TOP 10 [Id] ,[Email] ,[EmailConfirmed] ,[PasswordHash] ,[SecurityStamp] ,[PhoneNumber] ,[PhoneNumberConfirmed] ,[TwoFactorEnabled] ,[LockoutEndDateUtc] ,[LockoutEnabled] ,[AccessFailedCount] ,[UserName] FROM [dbo].[AspNetUsers]
 
+---End---
